@@ -1,0 +1,126 @@
+body{
+  position: relative;
+  min-height: 100vh;
+}
+#content-wrap {
+  padding-bottom: 50rem;    /* Footer height */
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  padding: 5px
+}
+.vl{
+  border-right: 1px solid #DCDCDC;
+  height: 20px;
+}
+.navheader{
+  padding-bottom: 1px;
+  overflow: hidden;
+  background-color: white;
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+footer {
+  text-align: center;
+  padding: 50px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+  background-color: #181818;
+}
+.wrapper {
+  padding-right: 10px; /* 3 */
+  padding-left:  10px; /* 3 */
+}
+.mainCol{
+  border: 2px solid #181818;
+  background-color: #181818;
+  border-radius: 15px;
+  margin-left: 75px;
+  margin-right: 75px
+
+}
+#marginbody{
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-top: 10px;
+}
+.mainCol p{
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 20;
+  color: white
+}
+.box{
+  border: 1px solid #181818;
+  background-color: #181818;
+  height: 250px;
+  padding-bottom: 200px;
+}
+
+
+
+.header{
+  position: relative;
+}
+.Htext{
+  position: absolute;
+  color: white;
+  top: 50%;
+  left: 50%;
+  font-size: 100px;
+  transform: translate(-50%, -50%);
+  font-family: 'Francois One', sans-serif;
+}
+#ad{
+  height: 500px;
+  background-color: red;
+  float: right;
+  margin-right: 25px;
+}
+.Ptext{
+  position: absolute;
+  color: white;
+  top: 65%;
+  left: 50%;
+  font-size: 25px;
+  transform: translate(-50%, -50%);
+}
+
+
+.logo {
+  float: left;
+  padding-right:5px;
+  padding-left:15px;
+  margin-left: 100px;
+  margin-top: 10px
+}
+.logo:hover {
+  cursor: pointer;
+}
+
+li {
+  float: right;
+  padding: 14px 75px;
+  margin-top: 13px
+}
+
+
+li a {
+  display: block;
+  color: #747c83;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  cursor: pointer;
+  text-decoration: none;
+  color: #747c83
+}
